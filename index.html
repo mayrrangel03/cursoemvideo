@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css">  <!--- link para CSS ---->
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div id="idade">
+          Ano de Nascimento: <input type="number" name="nascimento" id="nascimento">
+        </div>
+        <div id="sexo">
+            Sexo <input type="radio" name="radsex" id="masc"> <label for="masc">masculino</label> 
+            <input type="radio" name="radsex" id="fem"> <label for="fem">feminino</label>
+        </div>
+        <div id="botão">
+            <input type="button" value="verificar" onclick="verificar()">
+        </div>
+       <div id="res">
+           <p>aqui vai o resultado!</p>
+           <img src="perfil.png" alt='perfil'>
+        </div>
+   </section> 
+   <footer>
+       <p>&copy;CursoemVideo</p>
+    </footer>    
+    <script src="exercicio.js"></script>  <!---  link para java script--->
+</body>
+</html>
